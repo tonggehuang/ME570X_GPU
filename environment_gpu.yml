@@ -1,0 +1,21 @@
+name: me570xgpu
+channels:
+  - anaconda
+  - conda-forge/label/cf201901  
+dependencies:
+  - python=3.6
+  - cudatoolkit
+  - cudnn
+  - numpy
+  - scipy
+  - matplotlib
+  - pip
+  - numba
+  - vtk
+  - mayavi
+  - trimesh
+  - pip:
+    - scikit-image
+    - pyglet
+
+
